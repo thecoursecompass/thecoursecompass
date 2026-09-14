@@ -9,6 +9,71 @@
     <meta name="description" content="Explore UG & PG courses in India with The Course Compass. Get admission guidance for Engineering, Medical, Management, Law, Science, Design, Agriculture, Nursing and more.">
 
     <link rel="stylesheet" href="style.css">
+
+<style>
+.contact-form-wrap {
+    max-width: 900px;
+    margin: 30px auto 0;
+}
+.enquiry-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 61, 145, 0.10);
+    border: 1px solid #e5e7eb;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+.enquiry-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.enquiry-form input,
+.enquiry-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font: inherit;
+}
+.enquiry-form textarea {
+    resize: vertical;
+}
+.enquiry-form button {
+    margin-top: 20px;
+    padding: 13px 25px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.disclaimer {
+    margin-top: 22px;
+    padding: 20px;
+    background: #fff8e1;
+    border-left: 4px solid #D4AF37;
+    border-radius: 10px;
+}
+.disclaimer h3 {
+    margin-top: 0;
+}
+.disclaimer p {
+    margin-bottom: 10px;
+}
+@media (max-width: 700px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    .enquiry-form {
+        padding: 20px;
+    }
+}
+</style>
+
 </head>
 <body>
 
@@ -57,15 +122,6 @@
     <div class="hero-image">
         <img src="assets/logo.png" alt="The Course Compass">
     </div>
-
-</section>
-
-<!-- ===== SEARCH SECTION ===== -->
-<section class="search-section">
-
-    <h2>Search Your Course</h2>
-
-    <input type="text" placeholder="Search B.Tech, BBA, MBBS, MBA, BCA...">
 
 </section>
 
@@ -258,6 +314,68 @@
 
     </div>
 
+</section>
+
+<!-- ===== ENQUIRY FORM & DISCLAIMER ===== -->
+<section class="section light" id="enquiry">
+    <h2>Free Admission Enquiry</h2>
+
+    <p class="section-subtitle">
+        Tell us what you are looking for and we will help you understand suitable courses,
+        eligibility and admission options.
+    </p>
+
+    <div class="contact-form-wrap">
+        <form action="https://formsubmit.co/thecoursecompass@outlook.com" method="POST" class="enquiry-form">
+            <input type="hidden" name="_subject" value="New Enquiry - The Course Compass">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://thecoursecompass.in/">
+
+            <div class="form-grid">
+                <div>
+                    <label for="student-name">Student Name *</label>
+                    <input type="text" id="student-name" name="Student Name" placeholder="Enter student name" required>
+                </div>
+
+                <div>
+                    <label for="course">Course Interested In *</label>
+                    <input type="text" id="course" name="Course Interested In" placeholder="e.g. B.Tech CSE, B.Sc Nursing, MBA" required>
+                </div>
+
+                <div>
+                    <label for="location">Location / City *</label>
+                    <input type="text" id="location" name="Location / City" placeholder="Enter city / state" required>
+                </div>
+
+                <div>
+                    <label for="phone">Contact Number *</label>
+                    <input type="tel" id="phone" name="Contact Number" placeholder="Enter contact number" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="Student Email" placeholder="Enter email address">
+                </div>
+
+                <div>
+                    <label for="message">Enquiry / Message</label>
+                    <textarea id="message" name="Enquiry / Message" rows="4" placeholder="Tell us what you need help with"></textarea>
+                </div>
+            </div>
+
+            <button type="submit">Send Enquiry</button>
+        </form>
+
+        <div class="disclaimer">
+            <h3>Important Disclaimer</h3>
+            <p>
+                The Course Compass does not ask students to pay cash for admission guidance.
+                Please do not pay cash to anyone claiming to represent The Course Compass. 
+                For any clarification, contact us at thecoursecompass@outlook.com
+            </p>
+        </div>
+    </div>
 </section>
 
 <!-- ===== COUNSELLING CTA ===== -->

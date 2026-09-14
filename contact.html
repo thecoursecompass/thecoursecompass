@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | The Course Compass</title>
+    <meta name="description" content="Contact The Course Compass for free admission and course guidance.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .contact-page {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .contact-card {
+            background: #fff;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(15, 61, 145, 0.10);
+            border: 1px solid #e5e7eb;
+        }
+
+        .contact-card h1 {
+            margin-bottom: 10px;
+        }
+
+        .contact-card .intro {
+            margin-bottom: 25px;
+        }
+
+        .email-box {
+            background: #f5f8ff;
+            border-left: 4px solid #0f3d91;
+            padding: 16px 18px;
+            margin-bottom: 28px;
+            border-radius: 8px;
+        }
+
+        .email-box a {
+            color: #0f3d91;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .enquiry-form {
+            display: grid;
+            gap: 17px;
+        }
+
+        .enquiry-form label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+
+        .enquiry-form input,
+        .enquiry-form textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px 14px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font: inherit;
+        }
+
+        .enquiry-form textarea {
+            resize: vertical;
+        }
+
+        .enquiry-form button {
+            padding: 13px 25px;
+            border: 0;
+            border-radius: 8px;
+            cursor: pointer;
+            font: inherit;
+            font-weight: 600;
+        }
+
+        .disclaimer {
+            margin-top: 28px;
+            padding: 20px;
+            background: #fff8e1;
+            border-left: 4px solid #D4AF37;
+            border-radius: 10px;
+        }
+
+        .disclaimer h3 {
+            margin-top: 0;
+        }
+
+        .disclaimer p {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 700px) {
+            .contact-card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+
+    <div class="logo">
+        <img src="assets/logo.png" alt="The Course Compass Logo">
+        <div>
+            <h2>The Course Compass</h2>
+            <p>UG & PG Admission Guidance</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#categories">Courses</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+<!-- ===== CONTACT PAGE ===== -->
+<main class="contact-page">
+
+    <div class="contact-card">
+
+        <h1>Contact The Course Compass</h1>
+
+        <p class="intro">
+            Have a question about a course, eligibility, admission process or
+            career option? Send us your enquiry and we will guide you.
+        </p>
+
+        <div class="email-box">
+            <strong>For enquiries, contact us at:</strong><br>
+            <a href="mailto:thecoursecompass@outlook.com">
+                thecoursecompass@outlook.com
+            </a>
+        </div>
+
+        <h2>Free Admission Enquiry</h2>
+
+        <form class="enquiry-form"
+              action="https://formsubmit.co/thecoursecompass@outlook.com"
+              method="POST">
+
+            <input type="hidden" name="_subject"
+                   value="New Enquiry - The Course Compass">
+
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_template" value="table">
+
+            <input type="hidden" name="_next"
+                   value="https://thecoursecompass.in/contact.html">
+
+            <div>
+                <label for="student-name">Student Name *</label>
+                <input type="text" id="student-name" name="Student Name"
+                       placeholder="Enter student name" required>
+            </div>
+
+            <div>
+                <label for="course">Course Interested In *</label>
+                <input type="text" id="course" name="Course Interested In"
+                       placeholder="e.g. B.Tech CSE, MBA, B.Sc Nursing" required>
+            </div>
+
+            <div>
+                <label for="location">City / Location *</label>
+                <input type="text" id="location" name="City / Location"
+                       placeholder="Enter city / state" required>
+            </div>
+
+            <div>
+                <label for="phone">Student Contact Number *</label>
+                <input type="tel" id="phone" name="Student Contact Number"
+                       placeholder="Enter your mobile number" required
+                       pattern="[0-9]{10}" maxlength="10">
+            </div>
+
+            <div>
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="Student Email"
+                       placeholder="Enter your email address" required>
+            </div>
+
+            <div>
+                <label for="message">Enquiry / Message</label>
+                <textarea id="message" name="Enquiry / Message" rows="5"
+                          placeholder="Tell us what you need help with"></textarea>
+            </div>
+
+            <button type="submit">Send Enquiry</button>
+
+        </form>
+
+        <div class="disclaimer">
+            <h3>Important Disclaimer</h3>
+
+            <p>
+                The Course Compass does not ask students to pay cash for admission guidance.
+                Please do not pay cash to anyone claiming to represent The Course Compass. 
+                For any clarification, contact us at thecoursecompass@outlook.com
+            </p>
+
+        </div>
+
+    </div>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+
+    <div class="footer-logo">
+        <img src="assets/logo.png" alt="The Course Compass">
+        <h3>The Course Compass</h3>
+    </div>
+
+    <p>Your trusted guide for UG & PG admissions and career planning in India.</p>
+
+    <p>
+        Contact:
+        <a href="mailto:thecoursecompass@outlook.com">
+            thecoursecompass@outlook.com
+        </a>
+    </p>
+
+    <div class="footer-links">
+        <a href="engineering-it.html">Engineering</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <hr>
+
+    <p>© 2026 TheCourseCompass.in • All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
