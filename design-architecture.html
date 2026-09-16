@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Design & Architecture Courses | The Course Compass</title>
+
+    <meta name="description" content="Explore Design and Architecture courses in India including B.Arch, B.Des, Interior Design, Fashion Design, Product Design, Graphic Design, M.Arch, M.Des and career pathways.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .page-hero {
+            padding: 60px 7%;
+            background: linear-gradient(135deg, #eef4ff, #ffffff);
+            text-align: center;
+        }
+
+        .page-hero .tag {
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .page-hero h1 {
+            margin: 0 0 15px;
+            color: #073b91;
+            font-size: 42px;
+        }
+
+        .page-hero p {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .info-box {
+            max-width: 1050px;
+            margin: 30px auto 0;
+            padding: 22px;
+            background: #fff;
+            border-left: 5px solid #d4af37;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(15, 61, 145, 0.08);
+            text-align: left;
+        }
+
+        .course-grid,
+        .career-grid,
+        .exam-grid,
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .course-box,
+        .career-box,
+        .exam-box,
+        .faq-item {
+            background: #fff;
+            padding: 24px;
+            border-radius: 14px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 8px 25px rgba(15, 61, 145, 0.07);
+        }
+
+        .course-box h3,
+        .career-box h3,
+        .exam-box h3,
+        .faq-item h3 {
+            color: #073b91;
+            margin-top: 0;
+        }
+
+        .course-box ul {
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+
+        .highlight-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 25px;
+        }
+
+        .highlight-item {
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 12px;
+            border-top: 3px solid #d4af37;
+        }
+
+        .highlight-item h3 {
+            margin-top: 0;
+            color: #073b91;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            margin-top: 25px;
+        }
+
+        .course-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            min-width: 780px;
+        }
+
+        .course-table th,
+        .course-table td {
+            border: 1px solid #e5e7eb;
+            padding: 14px;
+            text-align: left;
+        }
+
+        .course-table th {
+            background: #eef4ff;
+            color: #073b91;
+        }
+
+        .enquiry-form {
+            max-width: 900px;
+            margin: 30px auto 0;
+            background: #fff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(15, 61, 145, 0.10);
+            border: 1px solid #e5e7eb;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+
+        .enquiry-form label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+
+        .enquiry-form input,
+        .enquiry-form textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px 14px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font: inherit;
+        }
+
+        .enquiry-form textarea {
+            resize: vertical;
+        }
+
+        .enquiry-form button {
+            margin-top: 20px;
+            padding: 13px 25px;
+            border: 0;
+            border-radius: 8px;
+            cursor: pointer;
+            font: inherit;
+            font-weight: 600;
+        }
+
+        .disclaimer {
+            max-width: 900px;
+            margin: 22px auto 0;
+            padding: 20px;
+            background: #fff8e1;
+            border-left: 4px solid #d4af37;
+            border-radius: 10px;
+        }
+
+        .disclaimer h3 {
+            margin-top: 0;
+        }
+
+        @media (max-width: 800px) {
+            .course-grid,
+            .career-grid,
+            .exam-grid,
+            .faq-grid,
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .highlight-list {
+                grid-template-columns: 1fr;
+            }
+
+            .page-hero h1 {
+                font-size: 32px;
+            }
+
+            .enquiry-form {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <img src="assets/logo.png" alt="The Course Compass Logo">
+
+        <div>
+            <h2>The Course Compass</h2>
+            <p>UG & PG Admission Guidance</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#categories">Courses</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+
+<!-- ===== PAGE HERO ===== -->
+
+<section class="page-hero">
+
+    <span class="tag">DESIGN & ARCHITECTURE • INDIA</span>
+
+    <h1>Design & Architecture Courses</h1>
+
+    <p>
+        Explore Architecture, Design and Creative Technology courses in India,
+        including B.Arch, B.Des, Interior Design, Fashion Design, Product Design,
+        Graphic Design, M.Arch, M.Des and related career pathways.
+    </p>
+
+    <div class="info-box">
+        <strong>Explore your pathway:</strong>
+        Architecture focuses on buildings, spaces and the built environment,
+        while Design covers visual communication, products, fashion, interiors,
+        user experience and other creative problem-solving fields.
+    </div>
+
+</section>
+
+
+<!-- ===== OVERVIEW ===== -->
+
+<section class="section">
+
+    <h2>Design & Architecture: An Overview</h2>
+
+    <p class="section-subtitle">
+        These fields combine creativity, technical knowledge, visual thinking,
+        problem-solving and project work. Students should consider the type of
+        work they enjoy, portfolio requirements and the specific admission
+        rules of each institution.
+    </p>
+
+    <div class="highlight-list">
+
+        <div class="highlight-item">
+            <h3>🏛️ Architecture</h3>
+            <p>
+                Building design, planning, structures, construction,
+                urban spaces and the built environment.
+            </p>
+        </div>
+
+        <div class="highlight-item">
+            <h3>🎨 Design</h3>
+            <p>
+                Visual communication, products, interfaces, fashion,
+                interiors and user-centred creative solutions.
+            </p>
+        </div>
+
+        <div class="highlight-item">
+            <h3>💻 Digital Design</h3>
+            <p>
+                UI/UX, interaction design, graphics, animation and
+                digital experiences combine creativity with technology.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== ARCHITECTURE ===== -->
+
+<section class="section light">
+
+    <h2>Architecture Courses</h2>
+
+    <div class="course-grid">
+
+        <div class="course-box">
+            <h3>🏛️ B.Arch</h3>
+            <p>
+                Bachelor of Architecture is a professional undergraduate
+                programme focused on architectural design, planning,
+                building technology and the built environment.
+            </p>
+            <ul>
+                <li>Professional undergraduate architecture pathway</li>
+                <li>Usually a 5-year programme</li>
+                <li>Eligibility depends on current regulatory and institution requirements</li>
+                <li>Career: Architecture, design, planning and related fields</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>🏙️ B.Plan</h3>
+            <p>
+                Bachelor of Planning focuses on planning of cities, regions,
+                infrastructure and human settlements.
+            </p>
+            <ul>
+                <li>Undergraduate planning programme</li>
+                <li>Focuses on urban and regional development</li>
+                <li>Combines planning, analysis and spatial studies</li>
+                <li>Career: Planning, urban development and related fields</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>🏗️ M.Arch</h3>
+            <p>
+                Master of Architecture provides advanced study and
+                specialisation in architecture and related disciplines.
+            </p>
+            <ul>
+                <li>Postgraduate architecture pathway</li>
+                <li>Requires a relevant qualifying degree as per institution rules</li>
+                <li>Specialisations vary by university</li>
+                <li>Career: Advanced practice, design, research and academics</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>🌆 Urban & Regional Planning</h3>
+            <p>
+                Planning-oriented study covers cities, communities,
+                infrastructure, land use and sustainable development.
+            </p>
+            <ul>
+                <li>UG and PG pathways are available</li>
+                <li>Spatial and analytical skills are useful</li>
+                <li>Can connect architecture, geography and public planning</li>
+                <li>Career: Urban planning, development and research</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== DESIGN COURSES ===== -->
+
+<section class="section">
+
+    <h2>Popular Design Courses</h2>
+
+    <div class="course-grid">
+
+        <div class="course-box">
+            <h3>🎨 B.Des</h3>
+            <p>
+                Bachelor of Design is an undergraduate programme covering
+                design thinking, visual communication, products, interfaces
+                and other design disciplines.
+            </p>
+            <ul>
+                <li>Usually a 4-year undergraduate pathway</li>
+                <li>Specialisations vary by institution</li>
+                <li>Studio and project work are important</li>
+                <li>Career: Product, communication, UI/UX, fashion and other design fields</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>🛋️ Interior Design</h3>
+            <p>
+                Interior design focuses on planning and designing functional,
+                aesthetic and user-friendly interior spaces.
+            </p>
+            <ul>
+                <li>UG, diploma and certificate pathways available</li>
+                <li>Spatial planning and visualisation are important</li>
+                <li>Software and portfolio skills are useful</li>
+                <li>Career: Interior design, space planning and related services</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>👗 Fashion Design</h3>
+            <p>
+                Fashion design covers apparel, textiles, styling, garment
+                development and fashion communication.
+            </p>
+            <ul>
+                <li>UG and PG pathways available</li>
+                <li>Creative and practical skills are important</li>
+                <li>Portfolio and project work may be required</li>
+                <li>Career: Fashion, apparel, styling, merchandising and design</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>📦 Product / Industrial Design</h3>
+            <p>
+                Product design combines user needs, creativity, materials,
+                form, function and manufacturing considerations.
+            </p>
+            <ul>
+                <li>Design and problem-solving focused</li>
+                <li>Sketching, modelling and digital tools are useful</li>
+                <li>Strong project portfolio can be valuable</li>
+                <li>Career: Product, industrial and design development roles</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>🖥️ Graphic / Communication Design</h3>
+            <p>
+                Focuses on visual communication through typography, branding,
+                graphics, publications and digital media.
+            </p>
+            <ul>
+                <li>Creative and communication-focused</li>
+                <li>Design software skills are useful</li>
+                <li>Portfolio is important for many design pathways</li>
+                <li>Career: Graphic design, branding, visual communication and media</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>📱 UI/UX & Interaction Design</h3>
+            <p>
+                Focuses on designing digital interfaces and user experiences
+                for websites, apps and digital products.
+            </p>
+            <ul>
+                <li>Combines design, technology and user research</li>
+                <li>Wireframing and prototyping are useful skills</li>
+                <li>Portfolio-based projects are valuable</li>
+                <li>Career: UI, UX, product and interaction design</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>🎬 Animation & Visual Effects</h3>
+            <p>
+                Creative technology programmes can cover animation, visual
+                storytelling, motion graphics and digital production.
+            </p>
+            <ul>
+                <li>UG and specialised pathways available</li>
+                <li>Drawing, storytelling and digital tools may be important</li>
+                <li>Portfolio and project work are valuable</li>
+                <li>Career: Animation, motion graphics, VFX and digital media</li>
+            </ul>
+        </div>
+
+        <div class="course-box">
+            <h3>💎 Jewellery & Lifestyle Design</h3>
+            <p>
+                Specialised design programmes can focus on jewellery, lifestyle
+                products, materials, craft and related creative industries.
+            </p>
+            <ul>
+                <li>Specialised design pathway</li>
+                <li>Design development and material knowledge are useful</li>
+                <li>Availability varies by institution</li>
+                <li>Career: Jewellery, lifestyle and product design</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== SPECIALISATIONS ===== -->
+
+<section class="section light">
+
+    <h2>Popular Design Specialisations</h2>
+
+    <div class="course-grid">
+
+        <div class="course-box">
+            <h3>🧑‍🎨 Visual Communication</h3>
+            <p>
+                Branding, typography, illustration, publications, advertising
+                and visual storytelling.
+            </p>
+        </div>
+
+        <div class="course-box">
+            <h3>📱 User Experience</h3>
+            <p>
+                User research, information architecture, interaction,
+                prototyping and digital product experiences.
+            </p>
+        </div>
+
+        <div class="course-box">
+            <h3>🪑 Furniture & Product</h3>
+            <p>
+                Designing physical products, furniture and objects around
+                function, materials and user needs.
+            </p>
+        </div>
+
+        <div class="course-box">
+            <h3>🏠 Interior & Spatial</h3>
+            <p>
+                Interior environments, spatial planning, materials, lighting
+                and user experience of spaces.
+            </p>
+        </div>
+
+        <div class="course-box">
+            <h3>👗 Fashion & Textile</h3>
+            <p>
+                Apparel, textiles, fashion communication, styling and
+                merchandising-related disciplines.
+            </p>
+        </div>
+
+        <div class="course-box">
+            <h3>🎞️ Animation & Motion</h3>
+            <p>
+                Animation, motion graphics, visual effects, storytelling
+                and digital content creation.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== COMPARISON ===== -->
+
+<section class="section">
+
+    <h2>Design & Architecture Course Comparison</h2>
+
+    <div class="table-wrap">
+
+        <table class="course-table">
+
+            <thead>
+                <tr>
+                    <th>Course / Pathway</th>
+                    <th>Level</th>
+                    <th>Typical Duration</th>
+                    <th>Main Focus</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>B.Arch</td>
+                    <td>UG</td>
+                    <td>Usually 5 years</td>
+                    <td>Architecture and built environment</td>
+                </tr>
+
+                <tr>
+                    <td>B.Plan</td>
+                    <td>UG</td>
+                    <td>Usually 4 years</td>
+                    <td>Urban and regional planning</td>
+                </tr>
+
+                <tr>
+                    <td>B.Des</td>
+                    <td>UG</td>
+                    <td>Usually 4 years</td>
+                    <td>Design and creative problem-solving</td>
+                </tr>
+
+                <tr>
+                    <td>Interior Design</td>
+                    <td>UG / Diploma</td>
+                    <td>Varies</td>
+                    <td>Interior and spatial environments</td>
+                </tr>
+
+                <tr>
+                    <td>Fashion Design</td>
+                    <td>UG / PG / Diploma</td>
+                    <td>Varies</td>
+                    <td>Fashion, apparel and textiles</td>
+                </tr>
+
+                <tr>
+                    <td>UI/UX Design</td>
+                    <td>UG / PG / Specialised</td>
+                    <td>Varies</td>
+                    <td>Digital products and user experience</td>
+                </tr>
+
+                <tr>
+                    <td>M.Arch / M.Des</td>
+                    <td>PG</td>
+                    <td>Varies</td>
+                    <td>Advanced specialisation</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+<!-- ===== ELIGIBILITY ===== -->
+
+<section class="section light">
+
+    <h2>Eligibility & Admission</h2>
+
+    <div class="career-grid">
+
+        <div class="career-box">
+            <h3>After Class 12</h3>
+            <p>
+                Students can explore B.Arch, B.Des, B.Plan and other
+                undergraduate design pathways, subject to the programme's
+                current eligibility requirements.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>Architecture Requirements</h3>
+            <p>
+                Architecture admission can have specific subject, marks and
+                aptitude or entrance requirements. Check the latest applicable
+                rules before applying.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>Design Eligibility</h3>
+            <p>
+                Design programmes may accept students from different academic
+                streams. Subject and minimum-mark requirements vary by institute.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>Portfolio</h3>
+            <p>
+                Some design institutions may require a portfolio, studio test,
+                interview or other assessment. Requirements vary by programme.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== ENTRANCE ===== -->
+
+<section class="section">
+
+    <h2>Design & Architecture Entrance Exams</h2>
+
+    <div class="exam-grid">
+
+        <div class="exam-box">
+            <h3>NATA</h3>
+            <p>
+                The National Aptitude Test in Architecture is used by
+                participating architecture institutions according to their
+                current admission rules.
+            </p>
+        </div>
+
+        <div class="exam-box">
+            <h3>JEE Main Paper 2</h3>
+            <p>
+                The architecture and planning papers of JEE Main may be
+                relevant for participating institutions and programmes
+                according to current admission rules.
+            </p>
+        </div>
+
+        <div class="exam-box">
+            <h3>NID DAT</h3>
+            <p>
+                The Design Aptitude Test is associated with admissions to
+                specified design programmes at the concerned institution.
+            </p>
+        </div>
+
+        <div class="exam-box">
+            <h3>NIFT Entrance</h3>
+            <p>
+                NIFT conducts its admission process for specified fashion
+                and design programmes according to its current rules.
+            </p>
+        </div>
+
+        <div class="exam-box">
+            <h3>UCEED</h3>
+            <p>
+                UCEED is used for undergraduate design admissions at
+                participating institutions according to their admission policies.
+            </p>
+        </div>
+
+        <div class="exam-box">
+            <h3>Institute-Specific Tests</h3>
+            <p>
+                Many universities and design schools may conduct their own
+                entrance tests, studio assessments, portfolios or interviews.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== CAREER ===== -->
+
+<section class="section light">
+
+    <h2>Career Scope</h2>
+
+    <div class="career-grid">
+
+        <div class="career-box">
+            <h3>🏛️ Architecture</h3>
+            <p>
+                Architecture graduates can explore architectural practice,
+                design, planning, documentation, research and related fields
+                subject to applicable professional requirements.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>🏠 Interior Design</h3>
+            <p>
+                Interior design careers can include space planning, residential,
+                commercial and hospitality design and related services.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>📱 UI/UX & Product</h3>
+            <p>
+                Designers can work on digital interfaces, user experiences,
+                product development and design systems.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>🎨 Graphic & Branding</h3>
+            <p>
+                Careers include graphic design, visual identity, branding,
+                communication design and digital content.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>👗 Fashion</h3>
+            <p>
+                Fashion graduates can explore apparel design, styling,
+                merchandising, textiles and fashion communication.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>🌆 Planning & Urban Development</h3>
+            <p>
+                Planning education can lead toward urban, regional,
+                infrastructure and development-related work.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== SKILLS ===== -->
+
+<section class="section">
+
+    <h2>Skills That Help in Design & Architecture</h2>
+
+    <div class="highlight-list">
+
+        <div class="highlight-item">
+            <h3>✏️ Drawing & Visual Thinking</h3>
+            <p>
+                Sketching, observation, composition and visualisation can
+                support many design and architecture projects.
+            </p>
+        </div>
+
+        <div class="highlight-item">
+            <h3>💻 Digital Tools</h3>
+            <p>
+                CAD, 3D modelling, graphic design, prototyping and other
+                digital tools are useful depending on the field.
+            </p>
+        </div>
+
+        <div class="highlight-item">
+            <h3>🧠 Problem Solving</h3>
+            <p>
+                Understanding users, analysing constraints and developing
+                practical creative solutions are core skills.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== PORTFOLIO ===== -->
+
+<section class="section light">
+
+    <h2>Building a Design Portfolio</h2>
+
+    <div class="career-grid">
+
+        <div class="career-box">
+            <h3>Start Early</h3>
+            <p>
+                Keep sketches, design exercises, photography, models,
+                illustrations and other relevant projects organised.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>Show Your Process</h3>
+            <p>
+                A strong portfolio can show how you understand a problem,
+                explore ideas, develop concepts and reach a final solution.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>Use Digital Tools</h3>
+            <p>
+                Depending on your field, include suitable digital work such
+                as layouts, prototypes, 3D models or interface projects.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>Keep It Relevant</h3>
+            <p>
+                Follow the exact portfolio format and submission instructions
+                provided by the institution you are applying to.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== HIGHER STUDIES ===== -->
+
+<section class="section">
+
+    <h2>Higher Studies & Career Growth</h2>
+
+    <div class="career-grid">
+
+        <div class="career-box">
+            <h3>After B.Arch</h3>
+            <p>
+                Graduates can consider M.Arch, planning, specialised design,
+                research and related postgraduate pathways.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>After B.Des</h3>
+            <p>
+                Students can pursue M.Des, specialised design education,
+                professional work or interdisciplinary study.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>Specialisation</h3>
+            <p>
+                Architecture and design graduates can develop expertise in
+                areas such as urban design, interiors, product design,
+                UX, sustainability or other fields.
+            </p>
+        </div>
+
+        <div class="career-box">
+            <h3>Research & Academics</h3>
+            <p>
+                Advanced qualifications can support research, teaching and
+                academic careers in design, architecture and related subjects.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== FAQ ===== -->
+
+<section class="section light" id="faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+
+        <div class="faq-item">
+            <h3>What is the difference between B.Arch and B.Des?</h3>
+            <p>
+                B.Arch is focused on architecture and the built environment,
+                while B.Des covers broader design disciplines such as products,
+                communication, digital experiences and other areas.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I study design after Class 12?</h3>
+            <p>
+                Yes. Many undergraduate design programmes accept students
+                after Class 12, subject to their specific eligibility and
+                admission requirements.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is drawing compulsory for every design course?</h3>
+            <p>
+                Drawing and visual thinking can be useful, but requirements
+                vary significantly by discipline and institution. Check the
+                current entrance and curriculum requirements.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is a portfolio required for design admission?</h3>
+            <p>
+                Some institutions require a portfolio or studio assessment,
+                while others use entrance tests and interviews. Requirements
+                differ by institution.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can Science students study Architecture?</h3>
+            <p>
+                Eligible students from the required academic background can
+                apply to architecture programmes subject to current regulatory
+                and institution-specific requirements.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can Commerce or Arts students study Design?</h3>
+            <p>
+                Many design programmes accept students from different streams,
+                but the exact eligibility depends on the institution and course.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== ENQUIRY ===== -->
+
+<section class="section">
+
+    <h2>Free Design & Architecture Enquiry</h2>
+
+    <p class="section-subtitle">
+        Not sure whether B.Arch, B.Des, Interior Design, Fashion Design,
+        UI/UX or another creative pathway is right for you?
+        Tell us what interests you.
+    </p>
+
+    <form action="https://formsubmit.co/thecoursecompass@outlook.com"
+          method="POST"
+          class="enquiry-form">
+
+        <input type="hidden" name="_subject"
+               value="Design & Architecture Enquiry - The Course Compass">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="hidden" name="_template" value="table">
+
+        <input type="hidden" name="_next"
+               value="https://thecoursecompass.in/design-architecture.html">
+
+        <div class="form-grid">
+
+            <div>
+                <label for="student-name">Student Name *</label>
+                <input type="text"
+                       id="student-name"
+                       name="Student Name"
+                       placeholder="Enter student name"
+                       required>
+            </div>
+
+            <div>
+                <label for="course">Course Interested In *</label>
+                <input type="text"
+                       id="course"
+                       name="Course Interested In"
+                       placeholder="e.g. B.Arch, B.Des, UI/UX"
+                       required>
+            </div>
+
+            <div>
+                <label for="location">Location / City *</label>
+                <input type="text"
+                       id="location"
+                       name="Location / City"
+                       placeholder="Enter city / state"
+                       required>
+            </div>
+
+            <div>
+                <label for="phone">Student Contact Number *</label>
+                <input type="tel"
+                       id="phone"
+                       name="Student Contact Number"
+                       placeholder="Enter 10-digit mobile number"
+                       pattern="[0-9]{10}"
+                       maxlength="10"
+                       required>
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email"
+                       id="email"
+                       name="Student Email"
+                       placeholder="Enter email address">
+            </div>
+
+            <div>
+                <label for="message">Enquiry / Message</label>
+                <textarea id="message"
+                          name="Enquiry / Message"
+                          rows="4"
+                          placeholder="Tell us what you need help with"></textarea>
+            </div>
+
+        </div>
+
+        <button type="submit">Send Enquiry</button>
+
+    </form>
+
+
+    <div class="disclaimer">
+
+        <h3>Friendly Reminder</h3>
+
+        <p>
+            The Course Compass provides free admission guidance.
+            Please do not pay cash to anyone claiming to represent
+            The Course Compass. For any clarification, contact us at
+            <strong>thecoursecompass@outlook.com</strong>.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ===== CTA ===== -->
+
+<section class="contact">
+
+    <h2>Need Help Choosing a Design or Architecture Course?</h2>
+
+    <p>
+        Speak with us about courses, eligibility, entrance exams,
+        portfolios, specialisations and career pathways.
+    </p>
+
+    <a href="contact.html">
+        <button>Book Free Counselling</button>
+    </a>
+
+</section>
+
+
+<!-- ===== FOOTER ===== -->
+
+<footer>
+
+    <div class="footer-logo">
+
+        <img src="assets/logo.png" alt="The Course Compass">
+
+        <h3>The Course Compass</h3>
+
+    </div>
+
+    <p>
+        Your trusted guide for UG & PG admissions and career planning in India.
+    </p>
+
+    <p>
+        Contact:
+        <a href="mailto:thecoursecompass@outlook.com">
+            thecoursecompass@outlook.com
+        </a>
+    </p>
+
+    <div class="footer-links">
+        <a href="engineering-it.html">Engineering</a>
+        <a href="medical-health.html">Medical & Allied Health</a>
+        <a href="nursing-pharmacy.html">Nursing & Pharmacy</a>
+        <a href="management-commerce.html">Management & Commerce</a>
+        <a href="law-courses.html">Law</a>
+        <a href="science-courses.html">Science</a>
+        <a href="design-architecture.html">Design & Architecture</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <hr>
+
+    <p>© 2026 TheCourseCompass.in • All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
