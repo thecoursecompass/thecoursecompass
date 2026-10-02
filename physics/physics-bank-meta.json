@@ -1,0 +1,25 @@
+{
+  "bank_name": "Physics Practice Bank",
+  "current_question_count": 1200,
+  "questions_per_section": 100,
+  "sections": [
+    "Units, Measurements & Experimental Skills",
+    "Kinematics",
+    "Laws of Motion & Friction",
+    "Work, Energy, Momentum & Collisions",
+    "Rotational Motion & Gravitation",
+    "Properties of Matter & Fluids",
+    "Thermal Physics & Thermodynamics",
+    "Oscillations & Waves",
+    "Electrostatics & Capacitance",
+    "Current Electricity",
+    "Magnetism, EMI & AC",
+    "Optics & Modern Physics"
+  ],
+  "difficulty_levels": [
+    "Easy",
+    "Medium",
+    "Hard"
+  ],
+  "source_type": "Original entrance-practice questions"
+}
