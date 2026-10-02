@@ -1,0 +1,28 @@
+{
+  "subject": "Chemistry",
+  "version": "V1",
+  "question_count": 1200,
+  "questions_per_section": 100,
+  "difficulty_distribution": {
+    "Easy": 180,
+    "Medium": 720,
+    "Hard": 300
+  },
+  "sections": [
+    "Basic Concepts & Stoichiometry",
+    "Atomic Structure & Periodicity",
+    "Chemical Bonding & Molecular Structure",
+    "States of Matter & Solutions",
+    "Thermodynamics & Thermochemistry",
+    "Chemical Equilibrium & Ionic Equilibrium",
+    "Redox & Electrochemistry",
+    "Chemical Kinetics & Surface Chemistry",
+    "Inorganic Chemistry — Periodic Trends & Main Groups",
+    "Coordination Chemistry & Transition Elements",
+    "Organic Chemistry — Fundamentals & Hydrocarbons",
+    "Organic Chemistry — Functional Groups & Biomolecules"
+  ],
+  "question_type": "Original entrance-practice MCQs",
+  "source": "Original entrance-practice question",
+  "note": "Original practice material; not represented as official previous-exam questions."
+}
