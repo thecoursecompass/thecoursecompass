@@ -1,0 +1,26 @@
+{
+  "subject": "Mathematics",
+  "current_question_count": 1200,
+  "questions_per_section": 100,
+  "sections": [
+    "Sets, Relations & Functions",
+    "Complex Numbers & Quadratic Equations",
+    "Sequences & Series",
+    "Permutations, Combinations & Binomial Theorem",
+    "Matrices & Determinants",
+    "Coordinate Geometry",
+    "Straight Lines & Circles",
+    "Conic Sections",
+    "Limits, Continuity & Differentiability",
+    "Integral Calculus",
+    "Differential Equations, Vectors & 3D",
+    "Probability, Statistics & Mathematical Reasoning"
+  ],
+  "difficulty_counts": {
+    "Easy": 180,
+    "Medium": 720,
+    "Hard": 300
+  },
+  "source_type": "Original entrance-practice questions",
+  "official_previous_year_questions": false
+}

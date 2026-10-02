@@ -1,0 +1,26 @@
+{
+  "subject": "Biology",
+  "current_question_count": 1200,
+  "questions_per_section": 100,
+  "sections": [
+    "Cell Biology",
+    "Biomolecules & Enzymes",
+    "Plant Anatomy & Transport",
+    "Plant Physiology",
+    "Human Physiology I",
+    "Human Physiology II",
+    "Reproduction",
+    "Genetics & Molecular Biology",
+    "Evolution & Ecology",
+    "Diversity & Taxonomy",
+    "Biotechnology & Microbiology",
+    "Human Health, Immunity & Environment"
+  ],
+  "difficulty_counts": {
+    "Easy": 180,
+    "Medium": 720,
+    "Hard": 300
+  },
+  "source_type": "Original entrance-practice questions",
+  "official_previous_year_questions": false
+}
