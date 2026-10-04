@@ -613,17 +613,20 @@ footer hr{
 }
 
 /* ===========================
- MOBILE
+   MOBILE
 =========================== */
 
 @media(max-width:600px){
 
   .navbar{
-    padding:10px 4%;
-    gap:12px;
+    padding:10px 16px;
+    gap:8px;
+    flex-direction:column;
+    align-items:stretch;
   }
 
   .logo{
+    width:100%;
     gap:8px;
   }
 
@@ -642,15 +645,25 @@ footer hr{
   }
 
   nav{
-    flex:1;
+    width:100%;
     max-width:none;
     min-width:0;
-    gap:16px;
-    padding:4px 0;
+    display:flex;
+    justify-content:flex-start;
+    gap:18px;
+    overflow-x:auto;
+    white-space:nowrap;
+    padding:4px 0 6px;
     -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+
+  nav::-webkit-scrollbar{
+    display:none;
   }
 
   nav a{
+    flex:0 0 auto;
     font-size:13px;
   }
 
