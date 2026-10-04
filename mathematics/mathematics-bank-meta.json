@@ -1,26 +1,35 @@
 {
-  "subject": "Mathematics",
-  "current_question_count": 1200,
-  "questions_per_section": 100,
-  "sections": [
-    "Sets, Relations & Functions",
-    "Complex Numbers & Quadratic Equations",
-    "Sequences & Series",
-    "Permutations, Combinations & Binomial Theorem",
-    "Matrices & Determinants",
-    "Coordinate Geometry",
-    "Straight Lines & Circles",
-    "Conic Sections",
-    "Limits, Continuity & Differentiability",
-    "Integral Calculus",
-    "Differential Equations, Vectors & 3D",
-    "Probability, Statistics & Mathematical Reasoning"
-  ],
-  "difficulty_counts": {
-    "Easy": 180,
-    "Medium": 720,
-    "Hard": 300
+  "version": "audited-clean-v1",
+  "filename": "mathematics-questions.js",
+  "question_count": 1194,
+  "starting_bank": 1200,
+  "unique_questions": 1194,
+  "duplicate_question_texts_final": 0,
+  "duplicate_option_sets_final": 0,
+  "difficulty": {
+    "Easy": 242,
+    "Medium": 690,
+    "Hard": 262
   },
-  "source_type": "Original entrance-practice questions",
-  "official_previous_year_questions": false
+  "section_counts": {
+    "Sets, Relations & Functions": 124,
+    "Complex Numbers & Quadratic Equations": 90,
+    "Sequences & Series": 103,
+    "Permutations, Combinations & Binomial Theorem": 90,
+    "Matrices & Determinants": 84,
+    "Coordinate Geometry": 100,
+    "Straight Lines & Circles": 103,
+    "Conic Sections": 87,
+    "Limits, Continuity & Differentiability": 120,
+    "Integral Calculus": 87,
+    "Differential Equations, Vectors & 3D": 94,
+    "Probability, Statistics & Mathematical Reasoning": 112
+  },
+  "topic_count": 30,
+  "source_representatives": 146,
+  "new_original_questions": 1048,
+  "official_sources": [
+    "https://jeemain.nta.nic.in/document/syllabus-2026/",
+    "https://jeeadv.ac.in/documents/jee-advanced-2026-syllabus.pdf"
+  ]
 }

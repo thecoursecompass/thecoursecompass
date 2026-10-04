@@ -1,28 +1,40 @@
 {
-  "subject": "Chemistry",
-  "version": "V1",
-  "question_count": 1200,
-  "questions_per_section": 100,
-  "difficulty_distribution": {
-    "Easy": 180,
-    "Medium": 720,
-    "Hard": 300
+  "version": "audited-clean-v2",
+  "filename": "chemistry-questions.js",
+  "question_count": 1046,
+  "starting_bank": 1200,
+  "unique_questions": 1046,
+  "duplicate_question_texts_final": 0,
+  "duplicate_option_sets_final": 0,
+  "difficulty": {
+    "Easy": 456,
+    "Medium": 408,
+    "Hard": 182
   },
-  "sections": [
-    "Basic Concepts & Stoichiometry",
-    "Atomic Structure & Periodicity",
-    "Chemical Bonding & Molecular Structure",
-    "States of Matter & Solutions",
-    "Thermodynamics & Thermochemistry",
-    "Chemical Equilibrium & Ionic Equilibrium",
-    "Redox & Electrochemistry",
-    "Chemical Kinetics & Surface Chemistry",
-    "Inorganic Chemistry — Periodic Trends & Main Groups",
-    "Coordination Chemistry & Transition Elements",
-    "Organic Chemistry — Fundamentals & Hydrocarbons",
-    "Organic Chemistry — Functional Groups & Biomolecules"
+  "sections": {
+    "Basic Concepts & Stoichiometry": 109,
+    "Atomic Structure & Periodicity": 89,
+    "Chemical Bonding & Molecular Structure": 87,
+    "States of Matter & Solutions": 98,
+    "Thermodynamics & Thermochemistry": 73,
+    "Chemical Equilibrium & Ionic Equilibrium": 86,
+    "Redox & Electrochemistry": 86,
+    "Chemical Kinetics & Surface Chemistry": 83,
+    "Inorganic Chemistry — Periodic Trends & Main Groups": 83,
+    "Coordination Chemistry & Transition Elements": 83,
+    "Organic Chemistry — Fundamentals & Hydrocarbons": 85,
+    "Organic Chemistry — Functional Groups & Biomolecules": 84
+  },
+  "new_original_questions_added": "782 before final quality corrections",
+  "standards_checked": [
+    "NEET UG 2026",
+    "JEE Main 2026",
+    "JEE Advanced 2026"
   ],
-  "question_type": "Original entrance-practice MCQs",
-  "source": "Original entrance-practice question",
-  "note": "Original practice material; not represented as official previous-exam questions."
+  "official_sources": [
+    "https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/",
+    "https://jeemain.nta.nic.in/document/syllabus-2026/",
+    "https://jeeadv.ac.in/documents/jee-advanced-2026-syllabus.pdf"
+  ],
+  "note": "Deep audit replacement: repetitive exact question variants were reduced; original questions were added across underrepresented chemistry areas. Filename remains chemistry-questions.js."
 }
