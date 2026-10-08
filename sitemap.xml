@@ -1,52 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://thecoursecompass.in/</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/about.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/contact.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/engineering-it.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/medical-health.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/nursing-pharmacy.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/management-commerce.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/law-courses.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/science-courses.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/design-architecture.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/arts-humanities.html</loc>
   </url>
-
   <url>
     <loc>https://thecoursecompass.in/agriculture.html</loc>
   </url>
-
+  <url>
+    <loc>https://thecoursecompass.in/pcbm-practice.html</loc>
+  </url>
+  <url>
+    <loc>https://thecoursecompass.in/physics-quiz.html</loc>
+  </url>
+  <url>
+    <loc>https://thecoursecompass.in/chemistry-quiz.html</loc>
+  </url>
+  <url>
+    <loc>https://thecoursecompass.in/mathematics-quiz.html</loc>
+  </url>
+  <url>
+    <loc>https://thecoursecompass.in/biology-quiz.html</loc>
+  </url>
 </urlset>
