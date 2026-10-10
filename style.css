@@ -773,3 +773,32 @@ footer hr{
   }
 
 }
+
+/* ===========================
+   FOOTER LINK VISIBILITY FIX
+   =========================== */
+footer a,
+footer a:visited {
+  color: #DCE7FF;
+  text-decoration: none;
+}
+
+footer a {
+  display: inline-block;
+  margin: 4px 10px 4px 0;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+footer a:hover,
+footer a:focus-visible {
+  color: #93C5FD;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+footer a:focus-visible {
+  outline: 2px solid #93C5FD;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
