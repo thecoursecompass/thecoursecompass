@@ -1,0 +1,29 @@
+{
+  "total_questions": 12000,
+  "section_count": 12,
+  "section_counts": {
+    "Units, Measurements & Experimental Skills": 1000,
+    "Kinematics": 1000,
+    "Laws of Motion & Friction": 1000,
+    "Work, Energy, Momentum & Collisions": 1000,
+    "Rotational Motion & Gravitation": 1000,
+    "Properties of Matter & Fluids": 1000,
+    "Thermal Physics & Thermodynamics": 1000,
+    "Oscillations & Waves": 1000,
+    "Electrostatics & Capacitance": 1000,
+    "Current Electricity": 1000,
+    "Magnetism, EMI & AC": 1000,
+    "Optics & Modern Physics": 1000
+  },
+  "difficulty_counts": {
+    "Easy": 2381,
+    "Medium": 6131,
+    "Hard": 3488
+  },
+  "exam_tags": {
+    "NEET": 4476,
+    "JEE Main": 4678,
+    "JEE Advanced": 3675
+  },
+  "note": "Expansion includes procedurally generated numerical practice variants. These have basic structural validation but are not independently expert-verified; review before public release."
+}
