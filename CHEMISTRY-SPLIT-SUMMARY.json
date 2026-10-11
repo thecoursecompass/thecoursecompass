@@ -1,0 +1,25 @@
+{
+  "total_questions": 12000,
+  "target_per_section": 1000,
+  "source_questions_preserved": 1046,
+  "generated_variants": 10954,
+  "sections": {
+    "Basic Concepts & Stoichiometry": 1000,
+    "Atomic Structure & Periodicity": 1000,
+    "Chemical Bonding & Molecular Structure": 1000,
+    "States of Matter & Solutions": 1000,
+    "Thermodynamics & Thermochemistry": 1000,
+    "Chemical Equilibrium & Ionic Equilibrium": 1000,
+    "Redox & Electrochemistry": 1000,
+    "Chemical Kinetics & Surface Chemistry": 1000,
+    "Inorganic Chemistry — Periodic Trends & Main Groups": 1000,
+    "Coordination Chemistry & Transition Elements": 1000,
+    "Organic Chemistry — Fundamentals & Hydrocarbons": 1000,
+    "Organic Chemistry — Functional Groups & Biomolecules": 1000
+  },
+  "audit_status": "STRUCTURAL CHECKS PASS; CONTENT AUDIT NOT COMPLETE; high template reuse detected; generated variants require subject-matter review.",
+  "normalized_question_templates_screening": 791,
+  "normalized_excess_entries_screening": 11209,
+  "exact_duplicate_question_texts": 0,
+  "all_chemistry_answers_independently_verified": false
+}
